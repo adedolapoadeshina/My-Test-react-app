@@ -4,6 +4,8 @@
 
 const ViewerDashboard=()=>{
     return(
+        <div>
+            <Header/>
         <div class="row">
             <div class="offset-3 col-md-6">
                 <h1 class="text-center text-primary">VIEWER DASHBORAD</h1>
@@ -28,6 +30,7 @@ const ViewerDashboard=()=>{
 
 </p>
             </div>
+        </div>
         </div>
         
     )

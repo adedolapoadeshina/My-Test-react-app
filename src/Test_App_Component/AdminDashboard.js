@@ -1,9 +1,11 @@
 
-
+import Header from "./Header"
 
 
 const AdminDashboard=()=>{
     return(
+        <div>
+        <Header/>
         <div className="row">
             <div className="offset-3 col-md-6">
                 <h1 className="text-center text-primary">ADMIN DASHBORAD</h1>
@@ -45,6 +47,7 @@ const AdminDashboard=()=>{
                     </tbody>
                 </table>
             </div>
+        </div>
         </div>
     )
 }

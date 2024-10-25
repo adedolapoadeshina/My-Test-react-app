@@ -1,9 +1,11 @@
-
+import Header from "./Header"
 
 
 
 const EditorDashboard=()=>{
     return(
+        <div>
+            <Header/>
         <div class="row">
             <div class="offset-3 col-md-6">
                 <h1 class="text-center text-primary">EDITOR DASHBORAD</h1>
@@ -53,6 +55,7 @@ const EditorDashboard=()=>{
                     </tbody>
                 </table>
             </div>
+        </div>
         </div>
     )
 }

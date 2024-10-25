@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Header from "./Header";
 
 
 
@@ -28,6 +29,8 @@ const navigate=useNavigate();
     if(error!==""){
 
         return(
+            <div>
+                <Header/>
             <div className="row">
                 <div className="offset-3 col-md-6">
                     <div className="alert alert-danger">
@@ -69,6 +72,7 @@ const navigate=useNavigate();
                 </div>
     
             </div>
+            </div>
         )
 
     }
@@ -79,6 +83,8 @@ const navigate=useNavigate();
 
 
     return(
+        <div>
+            <Header/>
         <div className="row">
             <div className="offset-3 col-md-6">
                 <div>
@@ -115,6 +121,7 @@ const navigate=useNavigate();
                         </div>
                     </form>
                 </div>
+        </div>
         </div>
     )
 }
