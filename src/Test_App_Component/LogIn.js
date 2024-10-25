@@ -11,7 +11,6 @@ const navigate=useNavigate();
 
     const RedirectLogin=(event)=>{
         event.preventDefault();
-        navigate("/admin")
         // alert(input.password)
         if (input.username==="admin" && user.admin===input.password){
             navigate("/admin")
