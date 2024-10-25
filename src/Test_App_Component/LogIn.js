@@ -20,7 +20,7 @@ const navigate=useNavigate();
             navigate("/viewer")
         }else{
             setError("password/username mismatch! kindly input the correct values")
-            navigate('/admin')
+            navigate('/*')
         };
     }
 
