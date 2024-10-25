@@ -26,7 +26,7 @@ const Test=()=>{
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Header/>}/>
-                <Route index element={<LogIn input={input} user={user} setError={setError} handleChange={handleChange} error={error}/>}/>
+                <Route path="/*" element={<LogIn input={input} user={user} setError={setError} handleChange={handleChange} error={error}/>}/>
                 <Route path="admin" element={<AdminDashboard/>} />
                 <Route path="editor" element={<EditorDashboard/>} />
                 <Route path="viewer" element={<ViewerDashboard/>} />
